@@ -59,7 +59,8 @@ public class ArrayPractice {
         intArray2[3] = 10;
         
         // Print out Arrays
-        System.out.println(Arrays.toString(intArray1));
+        //System.out.println(Arrays.toString(intArray1));
+        // The local variable intArray1 may not have been initialized
         System.out.println(Arrays.toString(intArray2));
         System.out.println(Arrays.toString(intArray3));
         System.out.println();
