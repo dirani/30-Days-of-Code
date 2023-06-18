@@ -23,6 +23,7 @@ public class ArrayPractice {
         for (int i = 0; i < array.length; i++) {
             String item = array[i];
             System.out.print(item);
+            //System.out.print(array[i]);
             if (i < array.length - 1) {
                 System.out.print(", ");
             }
@@ -51,6 +52,8 @@ public class ArrayPractice {
         
         String[] shoppingList = {"bananas", "apples", "pears"};
         
+        // intArray1 = {1, 2, 3, 4};  Array constants can only be used in initializersJava(1610612944)
+
         // Index: 0   1  2  3 
         // Array:[10, 8, 5, 10] --> length 4
         
@@ -60,8 +63,8 @@ public class ArrayPractice {
         intArray2[3] = 10;
         
         // Print out Arrays
-        //System.out.println(Arrays.toString(intArray1));
-        // The local variable intArray1 may not have been initialized
+        // System.out.println(Arrays.toString(intArray1));
+        // ERROR The local variable intArray1 may not have been initialized
         System.out.print("Arrays.toString(intArray2): ");
         System.out.println(Arrays.toString(intArray2));
         System.out.print("Arrays.toString(intArray3): ");
@@ -76,6 +79,7 @@ public class ArrayPractice {
        // Retrieve objects
         System.out.println(intArray2[3]);
         System.out.println(Array.get(intArray2, 3));
+        //System.out.println(Array.get(intArray2, 0));
         System.out.println();
         
         // Given functions
