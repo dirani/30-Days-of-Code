@@ -45,6 +45,7 @@ public class ArrayPractice {
         // Declaring, Allocating, and Initializing
         int[] intArray1;
         int[] intArray2 = new int[4];
+        System.out.print("printArray(intArray2): ");
         printArray(intArray2);
         int[] intArray3 = {5, 2, 9, 1, 3};
         
@@ -61,7 +62,9 @@ public class ArrayPractice {
         // Print out Arrays
         //System.out.println(Arrays.toString(intArray1));
         // The local variable intArray1 may not have been initialized
+        System.out.print("Arrays.toString(intArray2): ");
         System.out.println(Arrays.toString(intArray2));
+        System.out.print("Arrays.toString(intArray3): ");
         System.out.println(Arrays.toString(intArray3));
         System.out.println();
         
